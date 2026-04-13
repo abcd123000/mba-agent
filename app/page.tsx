@@ -108,7 +108,13 @@ export default function Home() {
 
         <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
           {messages.map((msg) => {
-            const text = getMessageText(msg as unknown as Parameters<typeof getMessageText>[0]);
+            const fullText = getMessageText(msg as unknown as Parameters<typeof getMessageText>[0]);
+
+            // Extract FRAMEWORKS_USED line
+            const frameworkMatch = fullText.match(/^FRAMEWORKS_USED:\s*\[(.+?)\]/m);
+            const frameworks = frameworkMatch ? frameworkMatch[1].split(",").map(f => f.trim()) : [];
+            const text = fullText.replace(/^FRAMEWORKS_USED:.*\n?/m, "").trimStart();
+
             return (
               <div key={msg.id} style={{ display: "flex", justifyContent: msg.role === "user" ? "flex-end" : "flex-start" }}>
                 {msg.role === "assistant" && (
@@ -116,18 +122,34 @@ export default function Home() {
                     M
                   </div>
                 )}
-                <div style={{
-                  maxWidth: "85%", borderRadius: 16, padding: "10px 16px",
-                  backgroundColor: msg.role === "user" ? "#059669" : "#fff",
-                  color: msg.role === "user" ? "#fff" : "#111827",
-                  border: msg.role === "user" ? "none" : "1px solid #e5e7eb",
-                  boxShadow: msg.role === "assistant" ? "0 1px 3px rgba(0,0,0,0.06)" : "none",
-                  fontSize: 14,
-                }}>
-                  {msg.role === "assistant"
-                    ? text.split("\n").map((line, i) => renderLine(line, i))
-                    : <p>{text}</p>
-                  }
+                <div style={{ maxWidth: "85%", display: "flex", flexDirection: "column", gap: 8 }}>
+                  {/* Framework badges */}
+                  {msg.role === "assistant" && frameworks.length > 0 && (
+                    <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
+                      {frameworks.map((f) => (
+                        <span key={f} style={{
+                          backgroundColor: "#ecfdf5", color: "#065f46",
+                          border: "1px solid #6ee7b7", borderRadius: 20,
+                          padding: "2px 10px", fontSize: 11, fontWeight: 600,
+                        }}>
+                          {f}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+                  <div style={{
+                    borderRadius: 16, padding: "10px 16px",
+                    backgroundColor: msg.role === "user" ? "#059669" : "#fff",
+                    color: msg.role === "user" ? "#fff" : "#111827",
+                    border: msg.role === "user" ? "none" : "1px solid #e5e7eb",
+                    boxShadow: msg.role === "assistant" ? "0 1px 3px rgba(0,0,0,0.06)" : "none",
+                    fontSize: 14,
+                  }}>
+                    {msg.role === "assistant"
+                      ? text.split("\n").map((line, i) => renderLine(line, i))
+                      : <p>{text}</p>
+                    }
+                  </div>
                 </div>
               </div>
             );
