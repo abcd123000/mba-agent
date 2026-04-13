@@ -108,7 +108,7 @@ export default function Home() {
 
         <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
           {messages.map((msg) => {
-            const text = getMessageText(msg as Parameters<typeof getMessageText>[0]);
+            const text = getMessageText(msg as unknown as Parameters<typeof getMessageText>[0]);
             return (
               <div key={msg.id} style={{ display: "flex", justifyContent: msg.role === "user" ? "flex-end" : "flex-start" }}>
                 {msg.role === "assistant" && (
