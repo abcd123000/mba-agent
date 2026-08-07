@@ -10,6 +10,16 @@ const STARTER_PROMPTS = [
   "I'm stuck on the GTM strategy for my healthtech startup",
 ];
 
+const FRAMEWORKS = [
+  { name: "Porter's 5 Forces", definition: "Assess industry attractiveness via rivalry, new entrants, suppliers, buyers, and substitutes." },
+  { name: "SWOT", definition: "Map Strengths, Weaknesses, Opportunities, and Threats to guide strategic choices." },
+  { name: "PESTLE", definition: "Scan Political, Economic, Social, Technological, Legal, and Environmental factors shaping a market." },
+  { name: "TAM/SAM/SOM", definition: "Size a market from Total Addressable down to Serviceable Obtainable to gauge realistic opportunity." },
+  { name: "BCG Matrix", definition: "Classify products as Stars, Cash Cows, Question Marks, or Dogs by growth and market share." },
+];
+
+const REMEMBERED_KEY = "mba-remembered-frameworks";
+
 function getMessageText(message: { role: string; content: unknown; parts?: Array<{ type: string; text?: string }> }): string {
   if (message.parts && Array.isArray(message.parts)) {
     return message.parts
@@ -49,11 +59,28 @@ export default function Home() {
   const { messages, sendMessage, status } = useChat();
   const isLoading = status === "streaming" || status === "submitted";
   const [input, setInput] = useState("");
+  const [flipped, setFlipped] = useState<Record<string, boolean>>({});
+  const [remembered, setRemembered] = useState<Record<string, boolean>>({});
   const bottomRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
+
+  useEffect(() => {
+    const stored = localStorage.getItem(REMEMBERED_KEY);
+    if (stored) setRemembered(JSON.parse(stored));
+  }, []);
+
+  const toggleFlip = (name: string) => setFlipped((prev) => ({ ...prev, [name]: !prev[name] }));
+
+  const toggleRemember = (name: string) => {
+    setRemembered((prev) => {
+      const next = { ...prev, [name]: !prev[name] };
+      localStorage.setItem(REMEMBERED_KEY, JSON.stringify(next));
+      return next;
+    });
+  };
 
   const submit = () => {
     if (input.trim()) {
@@ -196,9 +223,51 @@ export default function Home() {
             Send
           </button>
         </div>
-        <p style={{ textAlign: "center", fontSize: 11, color: "#9ca3af", marginTop: 8 }}>
-          Frameworks: Porter&apos;s 5 Forces · SWOT · PESTLE · TAM/SAM/SOM · BCG Matrix
-        </p>
+        <div style={{ maxWidth: 768, margin: "12px auto 0", display: "flex", flexWrap: "wrap", justifyContent: "center", gap: 8 }}>
+          {FRAMEWORKS.map(({ name, definition }) => {
+            const isFlipped = !!flipped[name];
+            const isRemembered = !!remembered[name];
+            return (
+              <div key={name} style={{ perspective: 600, width: 130, height: 60 }}>
+                <div
+                  onClick={() => toggleFlip(name)}
+                  style={{
+                    position: "relative", width: "100%", height: "100%", cursor: "pointer",
+                    transformStyle: "preserve-3d", transition: "transform 0.5s",
+                    transform: isFlipped ? "rotateY(180deg)" : "none",
+                  }}
+                >
+                  <div style={{
+                    position: "absolute", inset: 0, backfaceVisibility: "hidden", WebkitBackfaceVisibility: "hidden",
+                    backgroundColor: "#fff", border: "1px solid #e5e7eb", borderRadius: 10,
+                    display: "flex", alignItems: "center", justifyContent: "center", textAlign: "center",
+                    padding: 6, fontSize: 11, fontWeight: 600, color: "#374151",
+                  }}>
+                    {isRemembered && <span style={{ position: "absolute", top: 2, right: 4, color: "#f59e0b" }}>★</span>}
+                    {name}
+                  </div>
+                  <div style={{
+                    position: "absolute", inset: 0, backfaceVisibility: "hidden", WebkitBackfaceVisibility: "hidden",
+                    transform: "rotateY(180deg)", backgroundColor: "#ecfdf5", border: "1px solid #6ee7b7", borderRadius: 10,
+                    display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", textAlign: "center",
+                    padding: 6, gap: 4,
+                  }}>
+                    <span style={{ fontSize: 9.5, color: "#065f46", lineHeight: 1.3 }}>{definition}</span>
+                    <button
+                      onClick={(e) => { e.stopPropagation(); toggleRemember(name); }}
+                      style={{
+                        border: "none", background: "none", cursor: "pointer", fontSize: 11,
+                        color: isRemembered ? "#f59e0b" : "#9ca3af", padding: 0,
+                      }}
+                    >
+                      {isRemembered ? "★ Remembered" : "☆ Remember"}
+                    </button>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );
