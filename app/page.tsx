@@ -1,7 +1,7 @@
 "use client";
 
 import { useChat } from "@ai-sdk/react";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 
 const STARTER_PROMPTS = [
   "I want to start a healthtech consultancy in India. Where do I begin?",
@@ -19,6 +19,36 @@ const FRAMEWORKS = [
 ];
 
 const REMEMBERED_KEY = "mba-remembered-frameworks";
+const EMPTY_REMEMBERED: Record<string, boolean> = {};
+let rememberedListeners: Array<() => void> = [];
+
+function subscribeRemembered(callback: () => void) {
+  rememberedListeners.push(callback);
+  return () => { rememberedListeners = rememberedListeners.filter((l) => l !== callback); };
+}
+
+let cachedRaw: string | null = null;
+let cachedSnapshot: Record<string, boolean> = EMPTY_REMEMBERED;
+
+function getRememberedSnapshot(): Record<string, boolean> {
+  const raw = localStorage.getItem(REMEMBERED_KEY);
+  if (raw !== cachedRaw) {
+    cachedRaw = raw;
+    cachedSnapshot = raw ? JSON.parse(raw) : EMPTY_REMEMBERED;
+  }
+  return cachedSnapshot;
+}
+
+function getRememberedServerSnapshot() {
+  return EMPTY_REMEMBERED;
+}
+
+function setFrameworkRemembered(name: string) {
+  const current = getRememberedSnapshot();
+  const next = { ...current, [name]: !current[name] };
+  localStorage.setItem(REMEMBERED_KEY, JSON.stringify(next));
+  rememberedListeners.forEach((l) => l());
+}
 
 function getMessageText(message: { role: string; content: unknown; parts?: Array<{ type: string; text?: string }> }): string {
   if (message.parts && Array.isArray(message.parts)) {
@@ -60,27 +90,14 @@ export default function Home() {
   const isLoading = status === "streaming" || status === "submitted";
   const [input, setInput] = useState("");
   const [flipped, setFlipped] = useState<Record<string, boolean>>({});
-  const [remembered, setRemembered] = useState<Record<string, boolean>>({});
+  const remembered = useSyncExternalStore(subscribeRemembered, getRememberedSnapshot, getRememberedServerSnapshot);
   const bottomRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
 
-  useEffect(() => {
-    const stored = localStorage.getItem(REMEMBERED_KEY);
-    if (stored) setRemembered(JSON.parse(stored));
-  }, []);
-
   const toggleFlip = (name: string) => setFlipped((prev) => ({ ...prev, [name]: !prev[name] }));
-
-  const toggleRemember = (name: string) => {
-    setRemembered((prev) => {
-      const next = { ...prev, [name]: !prev[name] };
-      localStorage.setItem(REMEMBERED_KEY, JSON.stringify(next));
-      return next;
-    });
-  };
 
   const submit = () => {
     if (input.trim()) {
@@ -239,6 +256,7 @@ export default function Home() {
                 >
                   <div style={{
                     position: "absolute", inset: 0, backfaceVisibility: "hidden", WebkitBackfaceVisibility: "hidden",
+                    pointerEvents: isFlipped ? "none" : "auto",
                     backgroundColor: "#fff", border: "1px solid #e5e7eb", borderRadius: 10,
                     display: "flex", alignItems: "center", justifyContent: "center", textAlign: "center",
                     padding: 6, fontSize: 11, fontWeight: 600, color: "#374151",
@@ -248,13 +266,14 @@ export default function Home() {
                   </div>
                   <div style={{
                     position: "absolute", inset: 0, backfaceVisibility: "hidden", WebkitBackfaceVisibility: "hidden",
+                    pointerEvents: isFlipped ? "auto" : "none",
                     transform: "rotateY(180deg)", backgroundColor: "#ecfdf5", border: "1px solid #6ee7b7", borderRadius: 10,
                     display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", textAlign: "center",
                     padding: 6, gap: 4,
                   }}>
                     <span style={{ fontSize: 9.5, color: "#065f46", lineHeight: 1.3 }}>{definition}</span>
                     <button
-                      onClick={(e) => { e.stopPropagation(); toggleRemember(name); }}
+                      onClick={(e) => { e.stopPropagation(); setFrameworkRemembered(name); }}
                       style={{
                         border: "none", background: "none", cursor: "pointer", fontSize: 11,
                         color: isRemembered ? "#f59e0b" : "#9ca3af", padding: 0,
