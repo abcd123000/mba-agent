@@ -1,0 +1,66 @@
+{
+  "id": "07-default-effect",
+  "title": "The Default Effect",
+  "series": "BRAIN GLITCH #07",
+  "palette": {
+    "bg1": "#022c22",
+    "bg2": "#065f46",
+    "accent": "#fde047"
+  },
+  "scenes": [
+    {
+      "text": "Austria: *99%* organ donors.\nGermany: *12%*. Why?",
+      "vo": "In Austria, almost everyone is a registered organ donor. In neighbouring Germany, only about 12 percent. Why?",
+      "style": "hook"
+    },
+    {
+      "text": "Similar culture.\nSimilar values.",
+      "vo": "These are similar countries, with similar cultures and similar values."
+    },
+    {
+      "text": "Germany: tick a box to *opt in*",
+      "vo": "The difference is a single checkbox. In Germany, you tick a box to opt in."
+    },
+    {
+      "text": "Austria: tick a box to *opt out*",
+      "vo": "In Austria, you're a donor by default. You tick a box to opt out."
+    },
+    {
+      "text": "Most people just…\n*don't tick the box*",
+      "vo": "And most people simply never tick the box. Whatever the default is, wins."
+    },
+    {
+      "text": "The *default effect*",
+      "vo": "This is the default effect. Defaults feel like a recommendation, and changing them takes effort."
+    },
+    {
+      "text": "Auto-renew. Pre-ticked add-ons.\nNotifications: ON.",
+      "vo": "Apps know this well. Auto-renew, pre-ticked add-ons, notifications switched on."
+    },
+    {
+      "text": "Audit your defaults. Make good habits the *default*.",
+      "vo": "So audit your defaults. Set up the auto-save, turn off the auto-renew, and make good habits the default.",
+      "style": "tip"
+    },
+    {
+      "text": "Follow *@inquisitive_bytes*\nfor a daily byte of behaviour science",
+      "vo": "Follow Inquisitive Bytes for a daily byte of behaviour science.",
+      "style": "cta"
+    }
+  ],
+  "caption": "One checkbox, and the donor rate goes from 12% to 99%. ☑️ Defaults are among the most powerful forces in behaviour science.\n\nWhich default are you changing today? 👇",
+  "hashtags": [
+    "#defaulteffect",
+    "#nudge",
+    "#nudgetheory",
+    "#choicearchitecture",
+    "#behavioralscience",
+    "#psychology",
+    "#psychologyfacts",
+    "#behaviouraleconomics",
+    "#cognitivebias",
+    "#learnoninstagram",
+    "#inquisitivebytes"
+  ],
+  "source": "Johnson, E. J. & Goldstein, D. (2003). Do Defaults Save Lives? Science, 302(5649)."
+}

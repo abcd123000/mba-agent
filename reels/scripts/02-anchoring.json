@@ -1,0 +1,66 @@
+{
+  "id": "02-anchoring",
+  "title": "Anchoring",
+  "series": "BRAIN GLITCH #02",
+  "palette": {
+    "bg1": "#0b1120",
+    "bg2": "#134e4a",
+    "accent": "#fde047"
+  },
+  "scenes": [
+    {
+      "text": "A random wheel changed what people *believed*.",
+      "vo": "Scientists spun a rigged wheel of fortune, and it changed what people believed was true.",
+      "style": "hook"
+    },
+    {
+      "text": "The wheel stopped on\n*10* or *65*",
+      "vo": "In 1974, Tversky and Kahneman had people spin a wheel that stopped on either 10 or 65."
+    },
+    {
+      "text": "Then: what % of UN countries are African?",
+      "vo": "Then they asked: what percentage of countries in the United Nations are African?"
+    },
+    {
+      "text": "Saw 10 → guessed *25%*",
+      "vo": "People who saw 10 guessed 25 percent, on average."
+    },
+    {
+      "text": "Saw 65 → guessed *45%*",
+      "vo": "People who saw 65 guessed 45 percent. A meaningless number dragged their answer up."
+    },
+    {
+      "text": "This is *anchoring*",
+      "vo": "This is anchoring. The first number you see becomes the reference point for everything after it."
+    },
+    {
+      "text": "Crossed-out MRPs.\nSalary negotiations.\n“Was ₹4,999”",
+      "vo": "It's why shops show a crossed-out price, and why the first number in a salary negotiation matters so much."
+    },
+    {
+      "text": "Drop the anchor *first*, or decide your number before you look.",
+      "vo": "So drop the anchor first, or decide your number before you look at theirs.",
+      "style": "tip"
+    },
+    {
+      "text": "Follow *@inquisitive_bytes*\nfor a daily byte of behaviour science",
+      "vo": "Follow Inquisitive Bytes for a daily byte of behaviour science.",
+      "style": "cta"
+    }
+  ],
+  "caption": "The first number you see quietly rewrites every number after it. ⚓ Even when it comes from a spinning wheel.\n\nWhere have you been anchored? Sales, salary, rent? 👇",
+  "hashtags": [
+    "#anchoring",
+    "#anchoringbias",
+    "#negotiation",
+    "#kahneman",
+    "#behavioralscience",
+    "#psychology",
+    "#psychologyfacts",
+    "#behaviouraleconomics",
+    "#cognitivebias",
+    "#learnoninstagram",
+    "#inquisitivebytes"
+  ],
+  "source": "Tversky, A. & Kahneman, D. (1974). Judgment under Uncertainty: Heuristics and Biases. Science, 185(4157)."
+}

@@ -1,0 +1,62 @@
+{
+  "id": "10-fresh-start-effect",
+  "title": "The Fresh Start Effect",
+  "series": "BRAIN GLITCH #10",
+  "palette": {
+    "bg1": "#052e16",
+    "bg2": "#0e7490",
+    "accent": "#fef08a"
+  },
+  "scenes": [
+    {
+      "text": "Why does your diet always start on a *Monday*?",
+      "vo": "Why does your diet always start on a Monday?",
+      "style": "hook"
+    },
+    {
+      "text": "Researchers tracked gym visits & searches for “diet”",
+      "vo": "Researchers at Wharton tracked gym visits and Google searches for the word diet."
+    },
+    {
+      "text": "Spikes after: *New Year*, new weeks, new months, *birthdays*",
+      "vo": "Both spiked after New Year, at the start of each week and month, and after birthdays."
+    },
+    {
+      "text": "The *fresh start effect*",
+      "vo": "This is the fresh start effect. Dates like these feel like a clean slate."
+    },
+    {
+      "text": "They separate the *old you*\nfrom the *new you*",
+      "vo": "They draw a line between the old you, who made the mistakes, and the new you, who won't."
+    },
+    {
+      "text": "But you don't need to wait for Monday",
+      "vo": "But you don't have to wait for Monday or January."
+    },
+    {
+      "text": "Make today the landmark: call it *Day 1*.",
+      "vo": "Make today the landmark. Name it. Call it day one, and start.",
+      "style": "tip"
+    },
+    {
+      "text": "Follow *@inquisitive_bytes*\nfor a daily byte of behaviour science",
+      "vo": "Follow Inquisitive Bytes for a daily byte of behaviour science.",
+      "style": "cta"
+    }
+  ],
+  "caption": "Mondays, birthdays and 1st January feel like a clean slate. 🗓️ That's the fresh start effect. But you can create your own landmark anytime.\n\nComment 'DAY 1' if you're starting something today 👇",
+  "hashtags": [
+    "#freshstarteffect",
+    "#habits",
+    "#motivation",
+    "#katymilkman",
+    "#behavioralscience",
+    "#psychology",
+    "#psychologyfacts",
+    "#behaviouraleconomics",
+    "#cognitivebias",
+    "#learnoninstagram",
+    "#inquisitivebytes"
+  ],
+  "source": "Dai, H., Milkman, K. L. & Riis, J. (2014). The Fresh Start Effect: Temporal Landmarks Motivate Aspirational Behavior. Management Science, 60(10)."
+}

@@ -1,0 +1,62 @@
+{
+  "id": "06-pratfall-effect",
+  "title": "The Pratfall Effect",
+  "series": "BRAIN GLITCH #06",
+  "palette": {
+    "bg1": "#0f172a",
+    "bg2": "#78350f",
+    "accent": "#fde68a"
+  },
+  "scenes": [
+    {
+      "text": "Spilling coffee might make you *more* likeable.",
+      "vo": "Spilling coffee on yourself might actually make people like you more.",
+      "style": "hook"
+    },
+    {
+      "text": "1966: psychologist\nElliot Aronson",
+      "vo": "In 1966, psychologist Elliot Aronson played people a recording of a quiz-show contestant."
+    },
+    {
+      "text": "A near-perfect contestant…\nthen spills coffee on himself",
+      "vo": "The contestant got almost every answer right. In one version, he then clumsily spilled coffee all over himself."
+    },
+    {
+      "text": "The clumsy expert was rated\n*more* likeable",
+      "vo": "Listeners rated the clumsy expert as more likeable than the flawless one."
+    },
+    {
+      "text": "But only if he was already *competent*",
+      "vo": "But here's the catch: when the contestant was average, the same blunder made him less likeable."
+    },
+    {
+      "text": "The *pratfall effect*:\nflaws humanise skill",
+      "vo": "This is the pratfall effect. A small flaw makes competent people feel human and relatable."
+    },
+    {
+      "text": "Good at your job? Owning a small mistake builds *trust*.",
+      "vo": "So if you're good at what you do, owning a small mistake builds trust, not doubt.",
+      "style": "tip"
+    },
+    {
+      "text": "Follow *@inquisitive_bytes*\nfor a daily byte of behaviour science",
+      "vo": "Follow Inquisitive Bytes for a daily byte of behaviour science.",
+      "style": "cta"
+    }
+  ],
+  "caption": "Perfect is intimidating. A little imperfection makes skill relatable. ☕\n\nDo you trust people more when they admit a mistake? 👇",
+  "hashtags": [
+    "#pratfalleffect",
+    "#socialpsychology",
+    "#leadership",
+    "#likeability",
+    "#behavioralscience",
+    "#psychology",
+    "#psychologyfacts",
+    "#behaviouraleconomics",
+    "#cognitivebias",
+    "#learnoninstagram",
+    "#inquisitivebytes"
+  ],
+  "source": "Aronson, E., Willerman, B. & Floyd, J. (1966). The effect of a pratfall on increasing interpersonal attractiveness. Psychonomic Science, 4(6)."
+}

@@ -1,0 +1,62 @@
+{
+  "id": "03-loss-aversion",
+  "title": "Loss Aversion",
+  "series": "BRAIN GLITCH #03",
+  "palette": {
+    "bg1": "#1c1917",
+    "bg2": "#7f1d1d",
+    "accent": "#fbbf24"
+  },
+  "scenes": [
+    {
+      "text": "Losing ₹500 hurts more than finding ₹500 feels *good*.",
+      "vo": "Losing 500 rupees hurts way more than finding 500 rupees feels good. Here's why.",
+      "style": "hook"
+    },
+    {
+      "text": "Losses feel about\n*2×* stronger than gains",
+      "vo": "Kahneman and Tversky found that losses feel roughly twice as powerful as gains of the same size."
+    },
+    {
+      "text": "Heads: win ₹1,000\nTails: lose ₹1,000\nWould you play?",
+      "vo": "Would you take a coin flip to win or lose a thousand rupees? Most people say no."
+    },
+    {
+      "text": "Most people want a win of\n*~₹2,000* before they'll bet",
+      "vo": "Most people only take the bet when the possible win is around double the possible loss."
+    },
+    {
+      "text": "This is *loss aversion*",
+      "vo": "This is loss aversion. Your brain guards what you have more fiercely than it chases what you could get."
+    },
+    {
+      "text": "Free trials. “Last chance.”\nHolding losing stocks.",
+      "vo": "It's why free trials work, since cancelling feels like losing something. And why 'last chance' hits harder than 'great deal'."
+    },
+    {
+      "text": "Flip the frame: what would I *gain* by letting go?",
+      "vo": "Before your next decision, flip the frame. Ask: what would I gain by letting go?",
+      "style": "tip"
+    },
+    {
+      "text": "Follow *@inquisitive_bytes*\nfor a daily byte of behaviour science",
+      "vo": "Follow Inquisitive Bytes for a daily byte of behaviour science.",
+      "style": "cta"
+    }
+  ],
+  "caption": "Your brain is a terrible accountant: a loss weighs roughly twice as much as an equal gain. 📉\n\nWhat's something you held onto just because letting go felt like losing? 👇",
+  "hashtags": [
+    "#lossaversion",
+    "#prospecttheory",
+    "#moneypsychology",
+    "#decisionmaking",
+    "#behavioralscience",
+    "#psychology",
+    "#psychologyfacts",
+    "#behaviouraleconomics",
+    "#cognitivebias",
+    "#learnoninstagram",
+    "#inquisitivebytes"
+  ],
+  "source": "Kahneman, D. & Tversky, A. (1979). Prospect Theory. Econometrica, 47(2); Tversky & Kahneman (1992), Journal of Risk and Uncertainty."
+}

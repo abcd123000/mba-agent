@@ -1,0 +1,62 @@
+{
+  "id": "08-peak-end-rule",
+  "title": "The Peak-End Rule",
+  "series": "BRAIN GLITCH #08",
+  "palette": {
+    "bg1": "#0b1120",
+    "bg2": "#1e40af",
+    "accent": "#7dd3fc"
+  },
+  "scenes": [
+    {
+      "text": "People chose *more* pain.\nHere's why.",
+      "vo": "In one experiment, people chose to go through more pain. Here's why.",
+      "style": "hook"
+    },
+    {
+      "text": "Trial 1: hand in cold water\nfor *60 seconds*",
+      "vo": "Participants held a hand in painfully cold water for 60 seconds."
+    },
+    {
+      "text": "Trial 2: the same 60 sec…\n+ *30 sec* slightly less cold",
+      "vo": "In another trial, they did the same 60 seconds, plus 30 more where the water got slightly warmer."
+    },
+    {
+      "text": "Which would you repeat?\n*Most* chose the longer one",
+      "vo": "When asked which trial they'd repeat, most chose the longer one. More total pain, but a better ending."
+    },
+    {
+      "text": "We remember the *peak*\nand the *end*",
+      "vo": "We don't remember how long an experience lasted. We remember its most intense moment and how it ended."
+    },
+    {
+      "text": "The *peak-end rule*",
+      "vo": "This is the peak-end rule. It's why a great last day saves a so-so holiday, and a rude goodbye ruins a good meal."
+    },
+    {
+      "text": "End things well. The last moment *writes the memory*.",
+      "vo": "So end things well: meetings, dates, presentations. The last moment writes the memory.",
+      "style": "tip"
+    },
+    {
+      "text": "Follow *@inquisitive_bytes*\nfor a daily byte of behaviour science",
+      "vo": "Follow Inquisitive Bytes for a daily byte of behaviour science.",
+      "style": "cta"
+    }
+  ],
+  "caption": "Your memory isn't a recording. It's a highlight reel of the peak and the ending. 🎬\n\nWhat's an experience that a great (or terrible) ending completely changed? 👇",
+  "hashtags": [
+    "#peakendrule",
+    "#kahneman",
+    "#memory",
+    "#customerexperience",
+    "#behavioralscience",
+    "#psychology",
+    "#psychologyfacts",
+    "#behaviouraleconomics",
+    "#cognitivebias",
+    "#learnoninstagram",
+    "#inquisitivebytes"
+  ],
+  "source": "Kahneman, D., Fredrickson, B. L., Schreiber, C. A. & Redelmeier, D. A. (1993). When more pain is preferred to less: Adding a better end. Psychological Science, 4(6)."
+}

@@ -1,0 +1,66 @@
+{
+  "id": "09-social-proof",
+  "title": "Social Proof",
+  "series": "BRAIN GLITCH #09",
+  "palette": {
+    "bg1": "#1e1b4b",
+    "bg2": "#831843",
+    "accent": "#fcd34d"
+  },
+  "scenes": [
+    {
+      "text": "One sentence got more hotel guests to *reuse towels*.",
+      "vo": "Changing one sentence on a card got more hotel guests to reuse their towels.",
+      "style": "hook"
+    },
+    {
+      "text": "Card A:\n“Help save the environment”",
+      "vo": "Researchers tested cards in hotel rooms. Card A asked guests to help save the environment."
+    },
+    {
+      "text": "Card B: “Most guests in this hotel reuse their towels”",
+      "vo": "Card B simply said that most guests at this hotel reuse their towels."
+    },
+    {
+      "text": "Card B won:\n*44%* vs *35%*",
+      "vo": "Card B won. 44 percent reused towels, compared with 35 percent."
+    },
+    {
+      "text": "“Most guests who stayed in *this room*…”\n→ *49%*",
+      "vo": "And when the card said most guests who stayed in this very room reused towels, it rose to 49 percent."
+    },
+    {
+      "text": "*Social proof*:\nwe copy people like us",
+      "vo": "This is social proof. When we're unsure what to do, we copy people like us."
+    },
+    {
+      "text": "Reviews. “Bestseller” tags.\n“2,000 people bought this”",
+      "vo": "It's why reviews, bestseller tags and 'two thousand people bought this' work so well."
+    },
+    {
+      "text": "Persuading someone? Show what others *already do*.",
+      "vo": "So when you're persuading someone, don't just say why it's good. Show what others already do.",
+      "style": "tip"
+    },
+    {
+      "text": "Follow *@inquisitive_bytes*\nfor a daily byte of behaviour science",
+      "vo": "Follow Inquisitive Bytes for a daily byte of behaviour science.",
+      "style": "cta"
+    }
+  ],
+  "caption": "We don't just follow the crowd, we follow the crowd most like us. 🏨\n\nWhat's the last thing you bought because 'everyone' had it? 👇",
+  "hashtags": [
+    "#socialproof",
+    "#cialdini",
+    "#influence",
+    "#persuasion",
+    "#behavioralscience",
+    "#psychology",
+    "#psychologyfacts",
+    "#behaviouraleconomics",
+    "#cognitivebias",
+    "#learnoninstagram",
+    "#inquisitivebytes"
+  ],
+  "source": "Goldstein, N. J., Cialdini, R. B. & Griskevicius, V. (2008). A Room with a Viewpoint. Journal of Consumer Research, 35(3)."
+}

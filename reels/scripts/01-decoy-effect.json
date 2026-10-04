@@ -1,0 +1,66 @@
+{
+  "id": "01-decoy-effect",
+  "title": "The Decoy Effect",
+  "series": "BRAIN GLITCH #01",
+  "palette": {
+    "bg1": "#0f172a",
+    "bg2": "#3b0764",
+    "accent": "#facc15"
+  },
+  "scenes": [
+    {
+      "text": "Why does the *medium* popcorn always win?",
+      "vo": "Ever notice you always end up buying the medium popcorn? That's not an accident.",
+      "style": "hook"
+    },
+    {
+      "text": "Small: ₹150\nLarge: ₹300",
+      "vo": "Imagine a cinema sells small popcorn for 150 rupees and large for 300. Most people pick small."
+    },
+    {
+      "text": "Now add a Medium: *₹270*",
+      "vo": "Now they add a medium for 270. Suddenly the large looks like a steal. It's only 30 more."
+    },
+    {
+      "text": "The medium isn't meant to sell.\nIt's a *decoy*.",
+      "vo": "The medium was never meant to sell. It's a decoy, there to make the large look like a bargain."
+    },
+    {
+      "text": "The Economist ad:\nWeb $59 · Print $125\nWeb + Print $125",
+      "vo": "Dan Ariely tested this with an Economist ad. Web only, 59 dollars. Print only, 125. Print plus web, also 125."
+    },
+    {
+      "text": "With the decoy:\n*84%* chose Web + Print",
+      "vo": "With the useless print-only option on the menu, 84 percent chose the combo."
+    },
+    {
+      "text": "Without it:\nonly *32%*",
+      "vo": "Remove the decoy, and only 32 percent did."
+    },
+    {
+      "text": "Ask yourself: would I pick this if the middle option *didn't exist*?",
+      "vo": "So next time, ask yourself: would I still pick this if the middle option didn't exist?",
+      "style": "tip"
+    },
+    {
+      "text": "Follow *@inquisitive_bytes*\nfor a daily byte of behaviour science",
+      "vo": "Follow Inquisitive Bytes for a daily byte of behaviour science.",
+      "style": "cta"
+    }
+  ],
+  "caption": "That medium popcorn isn't there for you to buy. 🍿 It's there to make the large look cheap. This is the decoy effect, and it's on almost every menu, pricing page and subscription plan you see.\n\nSpotted a decoy recently? Drop it in the comments 👇",
+  "hashtags": [
+    "#decoyeffect",
+    "#pricingpsychology",
+    "#marketingpsychology",
+    "#danariely",
+    "#behavioralscience",
+    "#psychology",
+    "#psychologyfacts",
+    "#behaviouraleconomics",
+    "#cognitivebias",
+    "#learnoninstagram",
+    "#inquisitivebytes"
+  ],
+  "source": "Ariely, D. (2008). Predictably Irrational, ch. 1 (The Economist subscription experiment); Huber, Payne & Puto (1982), Journal of Consumer Research."
+}
