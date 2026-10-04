@@ -1,11 +1,21 @@
 {
-  "_comment": "One place for the channel look. Every reel uses these. Colours are hex.",
-  "brand": "INQUISITIVE BYTES",
+  "_comment": "Matches the @inquisitive_bytes grid: light-blue background, royal-blue rounded card, pale header tab with the lightbulb logo. Replace brand/logo-from-screenshot.png with the original logo file for a sharper result.",
+  "brand": ["Inquisitive", "Bytes"],
   "handle": "@inquisitive_bytes",
-  "series": "BRAIN GLITCH",
-  "font": "DejaVu Sans",
-  "background": ["#0f172a", "#3b0764"],
-  "text": "#ffffff",
-  "accent": "#facc15",
-  "muted": "#cbd5e1"
+  "hashtag": "#GetWiseWithInquisitiveBytes",
+  "series": "Brain Glitch",
+  "logo": "brand/logo-from-screenshot.png",
+  "fonts": {
+    "heading": { "family": "Bree Serif", "file": "fonts/BreeSerif-Regular.ttf" },
+    "body": { "family": "Kalam", "file": "fonts/Kalam-Bold.ttf" }
+  },
+  "colors": {
+    "bgTop": "#d4edfa",
+    "bgBottom": "#a7c9e3",
+    "card": "#2b63af",
+    "tab": "#e1f2fc",
+    "brandText": "#2a5ca8",
+    "text": "#ffffff",
+    "accent": "#ffd95a"
+  }
 }

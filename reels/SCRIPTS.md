@@ -2,7 +2,7 @@
 
 Generated from `reels/scripts/*.json` by `node reels/render.mjs --markdown`. Edit the JSON, not this file.
 
-## BRAIN GLITCH #01: The Decoy Effect
+## Brain Glitch #01: The Decoy Effect
 
 **Length:** ~54s · **File:** `reels/scripts/01-decoy-effect.json`
 
@@ -30,7 +30,7 @@ Tag a friend who always buys the large 👇
 
 **Source:** Huber, Payne & Puto (1982), Journal of Consumer Research; Ariely, D. (2008), Predictably Irrational, ch. 1.
 
-## BRAIN GLITCH #02: Anchoring
+## Brain Glitch #02: Anchoring
 
 **Length:** ~53s · **File:** `reels/scripts/02-anchoring.json`
 
@@ -57,7 +57,7 @@ Have you ever fallen for a 'was ₹2,999' price? 👇
 
 **Source:** Tversky, A. & Kahneman, D. (1974). Judgment under Uncertainty: Heuristics and Biases. Science, 185(4157).
 
-## BRAIN GLITCH #03: Loss Aversion
+## Brain Glitch #03: Loss Aversion
 
 **Length:** ~50s · **File:** `reels/scripts/03-loss-aversion.json`
 
@@ -84,7 +84,7 @@ What's a streak you refuse to break? 🔥👇
 
 **Source:** Kahneman, D. & Tversky, A. (1979). Prospect Theory. Econometrica, 47(2).
 
-## BRAIN GLITCH #04: The IKEA Effect
+## Brain Glitch #04: The IKEA Effect
 
 **Length:** ~51s · **File:** `reels/scripts/04-ikea-effect.json`
 
@@ -111,7 +111,7 @@ What's something you made that you're secretly super proud of? 👇
 
 **Source:** Norton, M. I., Mochon, D. & Ariely, D. (2012). The IKEA effect: When labor leads to love. Journal of Consumer Psychology, 22(3).
 
-## BRAIN GLITCH #05: The Spotlight Effect
+## Brain Glitch #05: The Spotlight Effect
 
 **Length:** ~42s · **File:** `reels/scripts/05-spotlight-effect.json`
 
@@ -138,7 +138,7 @@ Send this to the friend who still overthinks something from last year 😅
 
 **Source:** Gilovich, T., Medvec, V. H. & Savitsky, K. (2000). The spotlight effect in social judgment. Journal of Personality and Social Psychology, 78(2).
 
-## BRAIN GLITCH #06: The Pratfall Effect
+## Brain Glitch #06: The Pratfall Effect
 
 **Length:** ~46s · **File:** `reels/scripts/06-pratfall-effect.json`
 
@@ -165,7 +165,7 @@ Do you like people more when they admit mistakes? 👇
 
 **Source:** Aronson, E., Willerman, B. & Floyd, J. (1966). The effect of a pratfall on increasing interpersonal attractiveness. Psychonomic Science, 4(6).
 
-## BRAIN GLITCH #07: The Default Effect
+## Brain Glitch #07: The Default Effect
 
 **Length:** ~54s · **File:** `reels/scripts/07-default-effect.json`
 
@@ -193,7 +193,7 @@ Go check your autoplay setting right now 👀👇
 
 **Source:** Johnson, E. J. & Goldstein, D. (2003). Do Defaults Save Lives? Science, 302(5649).
 
-## BRAIN GLITCH #08: The Peak-End Rule
+## Brain Glitch #08: The Peak-End Rule
 
 **Length:** ~54s · **File:** `reels/scripts/08-peak-end-rule.json`
 
@@ -221,7 +221,7 @@ What movie had an ending that ruined everything? 👇
 
 **Source:** Kahneman, D., Fredrickson, B. L., Schreiber, C. A. & Redelmeier, D. A. (1993). When more pain is preferred to less. Psychological Science, 4(6).
 
-## BRAIN GLITCH #09: Social Proof
+## Brain Glitch #09: Social Proof
 
 **Length:** ~48s · **File:** `reels/scripts/09-social-proof.json`
 
@@ -248,7 +248,7 @@ What's the last thing you bought because everyone had it? 👇
 
 **Source:** Goldstein, N. J., Cialdini, R. B. & Griskevicius, V. (2008). A Room with a Viewpoint. Journal of Consumer Research, 35(3).
 
-## BRAIN GLITCH #10: The Fresh Start Effect
+## Brain Glitch #10: The Fresh Start Effect
 
 **Length:** ~45s · **File:** `reels/scripts/10-fresh-start-effect.json`
 

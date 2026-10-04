@@ -8,7 +8,11 @@ Script data and a renderer for faceless Instagram reels on [@inquisitive_bytes](
 
 ## Channel theme
 
-`theme.json` sets the look for every reel: background gradient colours, text colour, accent colour, muted colour, font, brand name, handle and series name. Change it once and re-render, and all reels update.
+`theme.json` sets the look for every reel, matching the @inquisitive_bytes grid. That means a light sky-blue background, a royal-blue rounded card, a pale header tab with the lightbulb logo and "Inquisitive Bytes", an underlined series title, and the handle and #GetWiseWithInquisitiveBytes under the card. Change it once and re-render, and all reels update.
+
+- **Logo:** `brand/logo-from-screenshot.png` was cut from a phone screenshot, so it's a little soft. Drop the original logo file into `brand/` and point `logo` at it.
+- **Fonts:** `fonts/` holds Kalam (handwritten body text) and Bree Serif (header). Both are free Google Fonts under the SIL Open Font License. To use a different font, add its `.ttf` file and update `fonts` in `theme.json`.
+- **Rendering:** the card background is drawn with Playwright (Chromium), and ffmpeg then animates the captions on top.
 
 ## Tone
 
@@ -33,13 +37,12 @@ Every reel follows the same structure: a **hook** (the first 2–3 seconds, patt
 
 ## Render
 
-Requires Node 18+ and ffmpeg built with libass (the default on most installs).
+Requires Node 18+, ffmpeg built with libass (the default on most installs) and Playwright with Chromium (`npm i -g playwright && npx playwright install chromium`).
 
 ```bash
 node reels/render.mjs                      # all reels -> reels/out/*.mp4
 node reels/render.mjs 03 07                # only ids starting with 03 / 07
 node reels/render.mjs --music lofi.mp3     # add a background track
-node reels/render.mjs --font "Montserrat"  # any font installed on your system (default: DejaVu Sans)
 node reels/render.mjs --markdown           # regenerate SCRIPTS.md after editing JSON
 ```
 
