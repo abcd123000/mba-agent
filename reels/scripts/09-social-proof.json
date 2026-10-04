@@ -1,64 +1,54 @@
 {
   "id": "09-social-proof",
+  "number": 9,
   "title": "Social Proof",
-  "series": "BRAIN GLITCH #09",
-  "palette": {
-    "bg1": "#1e1b4b",
-    "bg2": "#831843",
-    "accent": "#fcd34d"
-  },
   "scenes": [
     {
-      "text": "One sentence got more hotel guests to *reuse towels*.",
-      "vo": "Changing one sentence on a card got more hotel guests to reuse their towels.",
+      "text": "One sentence got more people to *reuse towels*",
+      "vo": "Changing one sentence on a card got way more hotel guests to reuse their towels.",
       "style": "hook"
     },
     {
-      "text": "Card A:\n“Help save the environment”",
-      "vo": "Researchers tested cards in hotel rooms. Card A asked guests to help save the environment."
+      "text": "Card A:\n“Please help save the planet”",
+      "vo": "Card A said: please help save the planet, reuse your towel."
     },
     {
-      "text": "Card B: “Most guests in this hotel reuse their towels”",
-      "vo": "Card B simply said that most guests at this hotel reuse their towels."
+      "text": "Card B:\n“*Most guests* here reuse their towels”",
+      "vo": "Card B just said: most guests in this hotel reuse their towels."
     },
     {
-      "text": "Card B won:\n*44%* vs *35%*",
-      "vo": "Card B won. 44 percent reused towels, compared with 35 percent."
+      "text": "Card B *won*",
+      "vo": "Card B won. More people reused their towels when they knew others did it too."
     },
     {
-      "text": "“Most guests who stayed in *this room*…”\n→ *49%*",
-      "vo": "And when the card said most guests who stayed in this very room reused towels, it rose to 49 percent."
+      "text": "This is *social proof*",
+      "vo": "This is called social proof. When we're not sure what to do, we copy what other people are doing."
     },
     {
-      "text": "*Social proof*:\nwe copy people like us",
-      "vo": "This is social proof. When we're unsure what to do, we copy people like us."
+      "text": "Views. Likes. “Bestseller.”\nThe long queue outside a shop.",
+      "vo": "It's why videos with lots of views get even more views, and why a long queue makes you think the food must be good."
     },
     {
-      "text": "Reviews. “Bestseller” tags.\n“2,000 people bought this”",
-      "vo": "It's why reviews, bestseller tags and 'two thousand people bought this' work so well."
-    },
-    {
-      "text": "Persuading someone? Show what others *already do*.",
-      "vo": "So when you're persuading someone, don't just say why it's good. Show what others already do.",
+      "text": "Before you follow the crowd, ask: do *I* actually want this?",
+      "vo": "So before you follow the crowd, ask yourself: do I actually want this, or is everyone else just doing it?",
       "style": "tip"
     },
     {
-      "text": "Follow *@inquisitive_bytes*\nfor a daily byte of behaviour science",
-      "vo": "Follow Inquisitive Bytes for a daily byte of behaviour science.",
+      "text": "Follow *@inquisitive_bytes*\nto understand your brain better",
+      "vo": "Follow Inquisitive Bytes to understand your brain, one byte at a time.",
       "style": "cta"
     }
   ],
-  "caption": "We don't just follow the crowd, we follow the crowd most like us. 🏨\n\nWhat's the last thing you bought because 'everyone' had it? 👇",
+  "caption": "We copy the crowd way more than we think. 🏨 It's called social proof.\n\nWhat's the last thing you bought because everyone had it? 👇",
   "hashtags": [
     "#socialproof",
-    "#cialdini",
     "#influence",
-    "#persuasion",
-    "#behavioralscience",
+    "#peerpressure",
     "#psychology",
     "#psychologyfacts",
-    "#behaviouraleconomics",
-    "#cognitivebias",
+    "#behavioralscience",
+    "#brainfacts",
+    "#didyouknow",
     "#learnoninstagram",
     "#inquisitivebytes"
   ],

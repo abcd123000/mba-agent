@@ -1,64 +1,54 @@
 {
   "id": "02-anchoring",
+  "number": 2,
   "title": "Anchoring",
-  "series": "BRAIN GLITCH #02",
-  "palette": {
-    "bg1": "#0b1120",
-    "bg2": "#134e4a",
-    "accent": "#fde047"
-  },
   "scenes": [
     {
-      "text": "A random wheel changed what people *believed*.",
-      "vo": "Scientists spun a rigged wheel of fortune, and it changed what people believed was true.",
+      "text": "A *random number* can change your answer",
+      "vo": "A totally random number can change what you think. Even when you know it's random.",
       "style": "hook"
     },
     {
-      "text": "The wheel stopped on\n*10* or *65*",
-      "vo": "In 1974, Tversky and Kahneman had people spin a wheel that stopped on either 10 or 65."
+      "text": "Scientists spun a wheel that stopped on *10* or *65*",
+      "vo": "Scientists spun a wheel in front of people. It stopped on either 10 or 65."
     },
     {
-      "text": "Then: what % of UN countries are African?",
-      "vo": "Then they asked: what percentage of countries in the United Nations are African?"
+      "text": "Then asked: what % of countries in a list are *African*?",
+      "vo": "Then they asked everyone the same quiz question, about how many countries in a big list were from Africa."
     },
     {
-      "text": "Saw 10 → guessed *25%*",
-      "vo": "People who saw 10 guessed 25 percent, on average."
-    },
-    {
-      "text": "Saw 65 → guessed *45%*",
-      "vo": "People who saw 65 guessed 45 percent. A meaningless number dragged their answer up."
+      "text": "Saw 10 → guessed *low*\nSaw 65 → guessed *high*",
+      "vo": "People who saw 10 guessed low. People who saw 65 guessed much higher. The wheel had nothing to do with the question!"
     },
     {
       "text": "This is *anchoring*",
-      "vo": "This is anchoring. The first number you see becomes the reference point for everything after it."
+      "vo": "This is called anchoring. The first number you see becomes an anchor, and your brain doesn't drift far from it."
     },
     {
-      "text": "Crossed-out MRPs.\nSalary negotiations.\n“Was ₹4,999”",
-      "vo": "It's why shops show a crossed-out price, and why the first number in a salary negotiation matters so much."
+      "text": "~~₹2,999~~ → ₹999\nWow, so cheap!",
+      "vo": "It's why online shops show a crossed-out price. You see 2,999 first, so 999 feels super cheap, even if that's the normal price."
     },
     {
-      "text": "Drop the anchor *first*, or decide your number before you look.",
-      "vo": "So drop the anchor first, or decide your number before you look at theirs.",
+      "text": "Before you look at the price, decide what it's *worth to you*",
+      "vo": "So before you look at the price, decide what something is actually worth to you.",
       "style": "tip"
     },
     {
-      "text": "Follow *@inquisitive_bytes*\nfor a daily byte of behaviour science",
-      "vo": "Follow Inquisitive Bytes for a daily byte of behaviour science.",
+      "text": "Follow *@inquisitive_bytes*\nto understand your brain better",
+      "vo": "Follow Inquisitive Bytes to understand your brain, one byte at a time.",
       "style": "cta"
     }
   ],
-  "caption": "The first number you see quietly rewrites every number after it. ⚓ Even when it comes from a spinning wheel.\n\nWhere have you been anchored? Sales, salary, rent? 👇",
+  "caption": "The first number you see quietly controls every number after it. ⚓ That's anchoring, and shops use it on you every day.\n\nHave you ever fallen for a 'was ₹2,999' price? 👇",
   "hashtags": [
     "#anchoring",
-    "#anchoringbias",
-    "#negotiation",
-    "#kahneman",
-    "#behavioralscience",
+    "#shoppinghacks",
+    "#mindtricks",
     "#psychology",
     "#psychologyfacts",
-    "#behaviouraleconomics",
-    "#cognitivebias",
+    "#behavioralscience",
+    "#brainfacts",
+    "#didyouknow",
     "#learnoninstagram",
     "#inquisitivebytes"
   ],

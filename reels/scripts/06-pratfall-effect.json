@@ -1,60 +1,54 @@
 {
   "id": "06-pratfall-effect",
+  "number": 6,
   "title": "The Pratfall Effect",
-  "series": "BRAIN GLITCH #06",
-  "palette": {
-    "bg1": "#0f172a",
-    "bg2": "#78350f",
-    "accent": "#fde68a"
-  },
   "scenes": [
     {
-      "text": "Spilling coffee might make you *more* likeable.",
-      "vo": "Spilling coffee on yourself might actually make people like you more.",
+      "text": "Making a mistake can make people like you *more*",
+      "vo": "Here's something weird. Making a small mistake can make people like you more.",
       "style": "hook"
     },
     {
-      "text": "1966: psychologist\nElliot Aronson",
-      "vo": "In 1966, psychologist Elliot Aronson played people a recording of a quiz-show contestant."
+      "text": "People listened to a quiz contestant who knew *every answer*",
+      "vo": "In an old experiment, people listened to a recording of a quiz contestant who got almost every answer right."
     },
     {
-      "text": "A near-perfect contestant…\nthen spills coffee on himself",
-      "vo": "The contestant got almost every answer right. In one version, he then clumsily spilled coffee all over himself."
+      "text": "Then he *spilled coffee* all over himself",
+      "vo": "In one version, at the end, he clumsily spilled coffee all over himself."
     },
     {
-      "text": "The clumsy expert was rated\n*more* likeable",
-      "vo": "Listeners rated the clumsy expert as more likeable than the flawless one."
+      "text": "People liked the clumsy one *more*",
+      "vo": "People liked the clumsy version more. He felt more human, more like one of us."
     },
     {
-      "text": "But only if he was already *competent*",
-      "vo": "But here's the catch: when the contestant was average, the same blunder made him less likeable."
+      "text": "But only if he was already *good*",
+      "vo": "But here's the catch. When the contestant wasn't very smart, spilling the coffee made people like him less."
     },
     {
-      "text": "The *pratfall effect*:\nflaws humanise skill",
-      "vo": "This is the pratfall effect. A small flaw makes competent people feel human and relatable."
+      "text": "This is the *pratfall effect*",
+      "vo": "This is called the pratfall effect. A pratfall is just a silly fall or blunder."
     },
     {
-      "text": "Good at your job? Owning a small mistake builds *trust*.",
-      "vo": "So if you're good at what you do, owning a small mistake builds trust, not doubt.",
+      "text": "Good at something? Laughing at your small mistakes makes you *relatable*.",
+      "vo": "So if you're good at something, don't hide your small mistakes. Laughing at them makes you relatable.",
       "style": "tip"
     },
     {
-      "text": "Follow *@inquisitive_bytes*\nfor a daily byte of behaviour science",
-      "vo": "Follow Inquisitive Bytes for a daily byte of behaviour science.",
+      "text": "Follow *@inquisitive_bytes*\nto understand your brain better",
+      "vo": "Follow Inquisitive Bytes to understand your brain, one byte at a time.",
       "style": "cta"
     }
   ],
-  "caption": "Perfect is intimidating. A little imperfection makes skill relatable. ☕\n\nDo you trust people more when they admit a mistake? 👇",
+  "caption": "Being perfect is a bit scary. A small slip-up makes people like you more. ☕ That's the pratfall effect.\n\nDo you like people more when they admit mistakes? 👇",
   "hashtags": [
     "#pratfalleffect",
-    "#socialpsychology",
-    "#leadership",
-    "#likeability",
-    "#behavioralscience",
+    "#socialskills",
+    "#confidence",
     "#psychology",
     "#psychologyfacts",
-    "#behaviouraleconomics",
-    "#cognitivebias",
+    "#behavioralscience",
+    "#brainfacts",
+    "#didyouknow",
     "#learnoninstagram",
     "#inquisitivebytes"
   ],

@@ -1,62 +1,56 @@
 {
   "id": "03-loss-aversion",
+  "number": 3,
   "title": "Loss Aversion",
-  "series": "BRAIN GLITCH #03",
-  "palette": {
-    "bg1": "#1c1917",
-    "bg2": "#7f1d1d",
-    "accent": "#fbbf24"
-  },
   "scenes": [
     {
-      "text": "Losing ₹500 hurts more than finding ₹500 feels *good*.",
-      "vo": "Losing 500 rupees hurts way more than finding 500 rupees feels good. Here's why.",
+      "text": "Losing ₹100 feels *worse* than finding ₹100 feels good",
+      "vo": "Losing 100 rupees feels way worse than finding 100 rupees feels good. Why?",
       "style": "hook"
     },
     {
-      "text": "Losses feel about\n*2×* stronger than gains",
-      "vo": "Kahneman and Tversky found that losses feel roughly twice as powerful as gains of the same size."
+      "text": "Your brain treats losing as about *2×* bigger",
+      "vo": "Scientists found that for your brain, losing something hits about twice as hard as winning the same thing."
     },
     {
-      "text": "Heads: win ₹1,000\nTails: lose ₹1,000\nWould you play?",
-      "vo": "Would you take a coin flip to win or lose a thousand rupees? Most people say no."
+      "text": "Coin toss:\nHeads, win ₹100\nTails, lose ₹100",
+      "vo": "Imagine a coin toss. Heads, you win 100 rupees. Tails, you lose 100. Would you play?"
     },
     {
-      "text": "Most people want a win of\n*~₹2,000* before they'll bet",
-      "vo": "Most people only take the bet when the possible win is around double the possible loss."
+      "text": "Most people say *no*",
+      "vo": "Most people say no. Losing 100 feels worse than winning 100 feels good."
     },
     {
       "text": "This is *loss aversion*",
-      "vo": "This is loss aversion. Your brain guards what you have more fiercely than it chases what you could get."
+      "vo": "This is called loss aversion. Aversion just means you really, really don't like something."
     },
     {
-      "text": "Free trials. “Last chance.”\nHolding losing stocks.",
-      "vo": "It's why free trials work, since cancelling feels like losing something. And why 'last chance' hits harder than 'great deal'."
+      "text": "Free trials. Game streaks.\n“Only 2 left!”",
+      "vo": "It's why free trials work. Once you have something, cancelling feels like losing it. And it's why you panic when your game streak is about to break."
     },
     {
-      "text": "Flip the frame: what would I *gain* by letting go?",
-      "vo": "Before your next decision, flip the frame. Ask: what would I gain by letting go?",
+      "text": "Ask: am I keeping this because I *like* it, or because I hate losing it?",
+      "vo": "So ask yourself: am I keeping this because I actually like it, or just because I hate losing it?",
       "style": "tip"
     },
     {
-      "text": "Follow *@inquisitive_bytes*\nfor a daily byte of behaviour science",
-      "vo": "Follow Inquisitive Bytes for a daily byte of behaviour science.",
+      "text": "Follow *@inquisitive_bytes*\nto understand your brain better",
+      "vo": "Follow Inquisitive Bytes to understand your brain, one byte at a time.",
       "style": "cta"
     }
   ],
-  "caption": "Your brain is a terrible accountant: a loss weighs roughly twice as much as an equal gain. 📉\n\nWhat's something you held onto just because letting go felt like losing? 👇",
+  "caption": "Your brain hates losing about twice as much as it loves winning. 📉 That's loss aversion, and it's the reason that streak notification works on you.\n\nWhat's a streak you refuse to break? 🔥👇",
   "hashtags": [
     "#lossaversion",
-    "#prospecttheory",
     "#moneypsychology",
-    "#decisionmaking",
-    "#behavioralscience",
+    "#mindtricks",
     "#psychology",
     "#psychologyfacts",
-    "#behaviouraleconomics",
-    "#cognitivebias",
+    "#behavioralscience",
+    "#brainfacts",
+    "#didyouknow",
     "#learnoninstagram",
     "#inquisitivebytes"
   ],
-  "source": "Kahneman, D. & Tversky, A. (1979). Prospect Theory. Econometrica, 47(2); Tversky & Kahneman (1992), Journal of Risk and Uncertainty."
+  "source": "Kahneman, D. & Tversky, A. (1979). Prospect Theory. Econometrica, 47(2)."
 }

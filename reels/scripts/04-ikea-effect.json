@@ -1,60 +1,54 @@
 {
   "id": "04-ikea-effect",
+  "number": 4,
   "title": "The IKEA Effect",
-  "series": "BRAIN GLITCH #04",
-  "palette": {
-    "bg1": "#0c1a3a",
-    "bg2": "#1e3a8a",
-    "accent": "#facc15"
-  },
   "scenes": [
     {
-      "text": "Why do you love the wobbly shelf *you* built?",
-      "vo": "Why do you love that slightly wobbly shelf you built yourself?",
+      "text": "Why does stuff *you* made feel more special?",
+      "vo": "Why does something you made yourself feel so much more special?",
       "style": "hook"
     },
     {
-      "text": "Researchers asked people to build plain IKEA boxes",
-      "vo": "Researchers asked people to assemble plain IKEA storage boxes."
+      "text": "Scientists had people build simple IKEA boxes",
+      "vo": "Scientists asked people to build simple storage boxes from IKEA. You know, the flat-pack ones."
     },
     {
-      "text": "Builders would pay\n*63% more* for their own box",
-      "vo": "The builders were willing to pay about 63 percent more for their box than others paid for an identical pre-built one."
+      "text": "Builders would pay *way more* for their own box",
+      "vo": "Then they asked how much they'd pay for the box. The builders were ready to pay way more than people looking at the exact same box, already built."
     },
     {
-      "text": "The *IKEA effect*:\neffort breeds love",
-      "vo": "This is the IKEA effect. When we put effort into something, we overvalue it."
+      "text": "This is the *IKEA effect*",
+      "vo": "This is called the IKEA effect. When you put effort into something, your brain loves it more."
     },
     {
-      "text": "The catch: it only works if you *finish*",
-      "vo": "The catch: the effect disappeared when people didn't finish, or built it and then took it apart."
+      "text": "But only if you *finish* it",
+      "vo": "But here's the twist. It only works if you finish it. Half-done projects don't get the same love."
     },
     {
-      "text": "“Build your own” products.\nYour own ideas in meetings.",
-      "vo": "It's why build-your-own products sell, and why we defend our own ideas a little too hard."
+      "text": "Your drawing. Your Minecraft house. Your idea in a group project.",
+      "vo": "It's why your own drawing, your Minecraft house, or your idea in a group project feels better than everyone else's."
     },
     {
-      "text": "Ask: do I love the idea, or the *effort* I put in?",
-      "vo": "So ask yourself: do I love this idea, or just the effort I put into it?",
+      "text": "Ask: is this really better, or did I just *work hard* on it?",
+      "vo": "So ask yourself: is this really better, or did I just work hard on it?",
       "style": "tip"
     },
     {
-      "text": "Follow *@inquisitive_bytes*\nfor a daily byte of behaviour science",
-      "vo": "Follow Inquisitive Bytes for a daily byte of behaviour science.",
+      "text": "Follow *@inquisitive_bytes*\nto understand your brain better",
+      "vo": "Follow Inquisitive Bytes to understand your brain, one byte at a time.",
       "style": "cta"
     }
   ],
-  "caption": "Effort makes things feel more valuable, even flat-pack boxes. 🛠️ It's called the IKEA effect.\n\nWhat's something you made that you secretly know isn't that good? 😅👇",
+  "caption": "Effort makes things feel more valuable, even a wobbly box. 🛠️ It's called the IKEA effect.\n\nWhat's something you made that you're secretly super proud of? 👇",
   "hashtags": [
     "#ikeaeffect",
-    "#consumerpsychology",
-    "#productdesign",
-    "#danariely",
-    "#behavioralscience",
+    "#selfawareness",
+    "#mindtricks",
     "#psychology",
     "#psychologyfacts",
-    "#behaviouraleconomics",
-    "#cognitivebias",
+    "#behavioralscience",
+    "#brainfacts",
+    "#didyouknow",
     "#learnoninstagram",
     "#inquisitivebytes"
   ],

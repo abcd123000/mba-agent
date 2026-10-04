@@ -21,8 +21,7 @@ const W = 1080;
 const H = 1920;
 const FPS = 30;
 const WORDS_PER_SEC = 2.8; // natural voiceover pace
-const HANDLE = "@inquisitive_bytes";
-const BRAND = "INQUISITIVE BYTES";
+const THEME = JSON.parse(readFileSync(join(ROOT, "theme.json"), "utf8"));
 
 const args = process.argv.slice(2);
 const flag = (name) => {
@@ -35,7 +34,7 @@ const flag = (name) => {
 const markdownOnly = args.includes("--markdown");
 if (markdownOnly) args.splice(args.indexOf("--markdown"), 1);
 const music = flag("--music");
-const font = flag("--font") ?? "DejaVu Sans";
+const font = flag("--font") ?? THEME.font;
 const outDir = flag("--out") ?? join(ROOT, "out");
 const filters = args;
 
@@ -50,6 +49,10 @@ if (markdownOnly) process.exit(0);
 
 mkdirSync(outDir, { recursive: true });
 for (const script of scripts) render(script);
+
+function seriesLabel(script) {
+  return `${THEME.series} #${String(script.number).padStart(2, "0")}`;
+}
 
 function sceneDurations(script, minTotal = 0) {
   const durs = script.scenes.map((s) => {
@@ -81,25 +84,28 @@ function assTime(t) {
   return `${h}:${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}.${String(cs % 100).padStart(2, "0")}`;
 }
 
-// *word* -> accent colour, \n -> ASS line break
-function assText(text, accent) {
+// *word* -> accent colour, ~~old price~~ -> struck through, \n -> ASS line break
+function assText(text, accent, base) {
   return text
     .replace(/[{}]/g, "")
-    .replace(/\*([^*]+)\*/g, `{\\c${accent}}$1{\\c&HFFFFFF&}`)
+    .replace(/\*([^*]+)\*/g, `{\\c${accent}}$1{\\c${base}}`)
+    .replace(/~~([^~]+)~~/g, "{\\s1\\alpha&H60&}$1{\\s0\\alpha&H00&}")
     .replace(/\n/g, "\\N");
 }
 
 function buildAss(script, durs) {
-  const accent = assColor(script.palette.accent);
+  const accent = assColor(THEME.accent);
+  const text = assColor(THEME.text);
+  const muted = assColor(THEME.muted);
   const total = durs.reduce((a, b) => a + b, 0);
   const lines = [];
   const ev = (start, end, style, text) =>
     lines.push(`Dialogue: 0,${assTime(start)},${assTime(end)},${style},,0,0,0,,${text}`);
 
   // Persistent chrome: brand, series tag, handle, progress bar.
-  ev(0, total, "Brand", `{\\pos(${W / 2},230)\\c${accent}}${BRAND}`);
-  ev(0, total, "Tag", `{\\pos(${W / 2},290)}${script.series} · ${script.title.toUpperCase()}`);
-  ev(0, total, "Tag", `{\\pos(${W / 2},1500)\\alpha&H60&}${HANDLE}`);
+  ev(0, total, "Brand", `{\\pos(${W / 2},230)\\c${accent}}${THEME.brand}`);
+  ev(0, total, "Tag", `{\\pos(${W / 2},290)\\c${muted}}${seriesLabel(script)} · ${script.title.toUpperCase()}`);
+  ev(0, total, "Tag", `{\\pos(${W / 2},1500)\\c${muted}\\alpha&H60&}${THEME.handle}`);
   const barY = 140;
   const track = `m 90 ${barY} l ${W - 90} ${barY} l ${W - 90} ${barY + 8} l 90 ${barY + 8}`;
   ev(0, total, "Bar", `{\\an7\\pos(0,0)\\alpha&HB0&\\p1}${track}{\\p0}`);
@@ -112,11 +118,11 @@ function buildAss(script, durs) {
     const style = scene.style === "hook" ? "Hook" : scene.style === "cta" ? "Cta" : scene.style === "tip" ? "Tip" : "Body";
     const cy = 860;
     const anim = `\\move(${W / 2},${cy + 40},${W / 2},${cy},0,280)\\fad(220,160)\\fscx88\\fscy88\\t(0,260,\\fscx100\\fscy100)`;
-    let text = assText(scene.text, accent);
+    const body = assText(scene.text, accent, text);
     if (style === "Tip") {
       ev(t, t + d, "Label", `{\\pos(${W / 2},${cy - 330})\\fad(220,160)\\c${accent}}TRY THIS`);
     }
-    ev(t, t + d, style, `{${anim}}${text}`);
+    ev(t, t + d, style, `{${anim}\\c${text}}${body}`);
     // Accent underline under the hook for a bit of motion.
     if (style === "Hook") {
       const y = cy + 300;
@@ -161,7 +167,7 @@ function render(script) {
   const assPath = join(outDir, `${script.id}.ass`);
   writeFileSync(assPath, buildAss(script, durs));
 
-  const { bg1, bg2 } = script.palette;
+  const [bg1, bg2] = THEME.background;
   const inputs = [
     "-f", "lavfi", "-i",
     `gradients=s=${W}x${H}:r=${FPS}:d=${total.toFixed(2)}:c0=${bg1}:c1=${bg2}:c2=${bg1}:n=3:speed=0.004:type=linear`,
@@ -226,7 +232,7 @@ function writeMarkdown() {
   for (const s of all) {
     const durs = sceneDurations(s);
     const total = durs.reduce((a, b) => a + b, 0);
-    md.push(`## ${s.series}: ${s.title}`, "", `**Length:** ~${Math.round(total)}s · **File:** \`reels/scripts/${s.id}.json\``, "");
+    md.push(`## ${seriesLabel(s)}: ${s.title}`, "", `**Length:** ~${Math.round(total)}s · **File:** \`reels/scripts/${s.id}.json\``, "");
     md.push("| # | On-screen text | Voiceover |", "|---|---|---|");
     s.scenes.forEach((sc, i) => {
       const cell = (x) => x.replace(/\n/g, " / ").replace(/\|/g, "\\|");

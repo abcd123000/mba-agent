@@ -1,0 +1,11 @@
+{
+  "_comment": "One place for the channel look. Every reel uses these. Colours are hex.",
+  "brand": "INQUISITIVE BYTES",
+  "handle": "@inquisitive_bytes",
+  "series": "BRAIN GLITCH",
+  "font": "DejaVu Sans",
+  "background": ["#0f172a", "#3b0764"],
+  "text": "#ffffff",
+  "accent": "#facc15",
+  "muted": "#cbd5e1"
+}

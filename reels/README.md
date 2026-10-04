@@ -6,20 +6,28 @@ Script data and a renderer for faceless Instagram reels on [@inquisitive_bytes](
 - `SCRIPTS.md` is a readable version of every script. You can read it on your phone while you record the voiceover.
 - `render.mjs` turns each script into a 1080×1920, 30fps MP4 with animated captions, a progress bar and your branding.
 
+## Channel theme
+
+`theme.json` sets the look for every reel: background gradient colours, text colour, accent colour, muted colour, font, brand name, handle and series name. Change it once and re-render, and all reels update.
+
+## Tone
+
+The scripts are written for a curious 15-year-old. That means short sentences, everyday examples (school, snacks, phones, games, friends) and no jargon. Every technical term is explained in plain words the first time it appears ("A default is what's already chosen for you").
+
 ## Series: "Brain Glitch"
 
 | # | Topic | Hook |
 |---|---|---|
-| 01 | Decoy effect | Why does the medium popcorn always win? |
-| 02 | Anchoring | A random wheel changed what people believed. |
-| 03 | Loss aversion | Losing ₹500 hurts more than finding ₹500 feels good. |
-| 04 | IKEA effect | Why do you love the wobbly shelf you built? |
-| 05 | Spotlight effect | Nobody noticed. Seriously. |
-| 06 | Pratfall effect | Spilling coffee might make you more likeable. |
-| 07 | Default effect | Austria: 99% organ donors. Germany: 12%. Why? |
-| 08 | Peak-end rule | People chose more pain. Here's why. |
-| 09 | Social proof | One sentence got more hotel guests to reuse towels. |
-| 10 | Fresh start effect | Why does your diet always start on a Monday? |
+| 01 | The Decoy Effect | Why do you always buy the medium popcorn? |
+| 02 | Anchoring | A random number can change your answer |
+| 03 | Loss Aversion | Losing ₹100 feels worse than finding ₹100 feels good |
+| 04 | The IKEA Effect | Why does stuff you made feel more special? |
+| 05 | The Spotlight Effect | That embarrassing moment? Nobody noticed. |
+| 06 | The Pratfall Effect | Making a mistake can make people like you more |
+| 07 | The Default Effect | One checkbox changed millions of decisions |
+| 08 | The Peak-End Rule | People chose more pain. Here's why. |
+| 09 | Social Proof | One sentence got more people to reuse towels |
+| 10 | The Fresh Start Effect | Why do you always say “I'll start on Monday”? |
 
 Every reel follows the same structure: a **hook** (the first 2–3 seconds, pattern interrupt), then the **study** (who, what, the surprising number), the **name** of the effect, **where you see it** in daily life, a **TRY THIS** tip, and a **follow** call to action.
 
@@ -51,9 +59,10 @@ If you render without a voiceover or music, the video gets a silent audio track.
 
 ## Writing a new reel
 
-Copy any file in `scripts/`, then change the `id`, `title`, `series` and `palette`, and write the scenes. Formatting in `text`:
+Copy any file in `scripts/`, then change the `id`, `number` and `title`, and write the scenes. Formatting in `text`:
 
 - `*word*` shows that word in the accent colour.
+- `~~₹2,999~~` shows a struck-through old price.
 - `\n` starts a new line.
 - `"style": "hook" | "tip" | "cta"` changes the size and layout (leave it out for normal body scenes).
 

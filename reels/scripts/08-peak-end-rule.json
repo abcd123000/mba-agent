@@ -1,62 +1,60 @@
 {
   "id": "08-peak-end-rule",
+  "number": 8,
   "title": "The Peak-End Rule",
-  "series": "BRAIN GLITCH #08",
-  "palette": {
-    "bg1": "#0b1120",
-    "bg2": "#1e40af",
-    "accent": "#7dd3fc"
-  },
   "scenes": [
     {
       "text": "People chose *more* pain.\nHere's why.",
-      "vo": "In one experiment, people chose to go through more pain. Here's why.",
+      "vo": "In one experiment, people chose more pain over less pain. Here's why.",
       "style": "hook"
     },
     {
-      "text": "Trial 1: hand in cold water\nfor *60 seconds*",
-      "vo": "Participants held a hand in painfully cold water for 60 seconds."
+      "text": "Round 1: hand in ice-cold water for *60 seconds*",
+      "vo": "In round one, people kept their hand in ice-cold water for 60 seconds. Ouch."
     },
     {
-      "text": "Trial 2: the same 60 sec…\n+ *30 sec* slightly less cold",
-      "vo": "In another trial, they did the same 60 seconds, plus 30 more where the water got slightly warmer."
+      "text": "Round 2: same 60 sec + *30 sec* a bit less cold",
+      "vo": "In round two, the same 60 seconds, plus 30 more where the water got a little less cold."
     },
     {
-      "text": "Which would you repeat?\n*Most* chose the longer one",
-      "vo": "When asked which trial they'd repeat, most chose the longer one. More total pain, but a better ending."
+      "text": "Which to repeat?\nMost chose the *longer* one",
+      "vo": "When asked which one they'd do again, most people picked the longer one. More pain, but a nicer ending."
     },
     {
-      "text": "We remember the *peak*\nand the *end*",
-      "vo": "We don't remember how long an experience lasted. We remember its most intense moment and how it ended."
+      "text": "Your brain remembers the *best or worst moment*, and the *ending*",
+      "vo": "Your brain doesn't remember how long something lasted. It remembers the most intense moment, and how it ended."
     },
     {
-      "text": "The *peak-end rule*",
-      "vo": "This is the peak-end rule. It's why a great last day saves a so-so holiday, and a rude goodbye ruins a good meal."
+      "text": "This is the *peak-end rule*",
+      "vo": "This is called the peak-end rule. Peak means the biggest moment. End means, well, the end."
     },
     {
-      "text": "End things well. The last moment *writes the memory*.",
-      "vo": "So end things well: meetings, dates, presentations. The last moment writes the memory.",
+      "text": "Great last day of a trip. A bad ending to a movie.",
+      "vo": "It's why one great last day makes a whole trip feel amazing, and a bad ending can ruin a whole movie."
+    },
+    {
+      "text": "End things *well*: presentations, hangouts, apologies.",
+      "vo": "So end things well. Presentations, hangouts, even apologies. The ending is what people remember.",
       "style": "tip"
     },
     {
-      "text": "Follow *@inquisitive_bytes*\nfor a daily byte of behaviour science",
-      "vo": "Follow Inquisitive Bytes for a daily byte of behaviour science.",
+      "text": "Follow *@inquisitive_bytes*\nto understand your brain better",
+      "vo": "Follow Inquisitive Bytes to understand your brain, one byte at a time.",
       "style": "cta"
     }
   ],
-  "caption": "Your memory isn't a recording. It's a highlight reel of the peak and the ending. 🎬\n\nWhat's an experience that a great (or terrible) ending completely changed? 👇",
+  "caption": "Your memory isn't a video. It's a highlight reel of the biggest moment and the ending. 🎬 That's the peak-end rule.\n\nWhat movie had an ending that ruined everything? 👇",
   "hashtags": [
     "#peakendrule",
-    "#kahneman",
     "#memory",
-    "#customerexperience",
-    "#behavioralscience",
+    "#brainfacts",
     "#psychology",
     "#psychologyfacts",
-    "#behaviouraleconomics",
-    "#cognitivebias",
+    "#behavioralscience",
+    "#brainfacts",
+    "#didyouknow",
     "#learnoninstagram",
     "#inquisitivebytes"
   ],
-  "source": "Kahneman, D., Fredrickson, B. L., Schreiber, C. A. & Redelmeier, D. A. (1993). When more pain is preferred to less: Adding a better end. Psychological Science, 4(6)."
+  "source": "Kahneman, D., Fredrickson, B. L., Schreiber, C. A. & Redelmeier, D. A. (1993). When more pain is preferred to less. Psychological Science, 4(6)."
 }

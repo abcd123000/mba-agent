@@ -1,62 +1,56 @@
 {
   "id": "10-fresh-start-effect",
+  "number": 10,
   "title": "The Fresh Start Effect",
-  "series": "BRAIN GLITCH #10",
-  "palette": {
-    "bg1": "#052e16",
-    "bg2": "#0e7490",
-    "accent": "#fef08a"
-  },
   "scenes": [
     {
-      "text": "Why does your diet always start on a *Monday*?",
-      "vo": "Why does your diet always start on a Monday?",
+      "text": "Why do you always say “I'll start on *Monday*”?",
+      "vo": "Why do we always say, I'll start on Monday?",
       "style": "hook"
     },
     {
-      "text": "Researchers tracked gym visits & searches for “diet”",
-      "vo": "Researchers at Wharton tracked gym visits and Google searches for the word diet."
+      "text": "Scientists tracked gym visits and searches for “diet”",
+      "vo": "Scientists looked at how often people went to the gym, and how often they searched for diets online."
     },
     {
-      "text": "Spikes after: *New Year*, new weeks, new months, *birthdays*",
-      "vo": "Both spiked after New Year, at the start of each week and month, and after birthdays."
+      "text": "Big jumps on: *New Year*, Mondays, birthdays",
+      "vo": "Both shot up on New Year, on Mondays, at the start of each month, and after birthdays."
     },
     {
-      "text": "The *fresh start effect*",
-      "vo": "This is the fresh start effect. Dates like these feel like a clean slate."
+      "text": "This is the *fresh start effect*",
+      "vo": "This is called the fresh start effect. Special dates feel like a clean page in a new notebook."
     },
     {
-      "text": "They separate the *old you*\nfrom the *new you*",
-      "vo": "They draw a line between the old you, who made the mistakes, and the new you, who won't."
+      "text": "Old you made mistakes.\n*New you* won't.",
+      "vo": "They make you feel like the old you made the mistakes, and the new you is ready to do better."
     },
     {
-      "text": "But you don't need to wait for Monday",
-      "vo": "But you don't have to wait for Monday or January."
+      "text": "But you don't have to *wait*",
+      "vo": "But here's the secret. You don't have to wait for Monday or New Year."
     },
     {
-      "text": "Make today the landmark: call it *Day 1*.",
-      "vo": "Make today the landmark. Name it. Call it day one, and start.",
+      "text": "Make today special. Call it *Day 1*.",
+      "vo": "Make today the special day. Call it day one, and start now.",
       "style": "tip"
     },
     {
-      "text": "Follow *@inquisitive_bytes*\nfor a daily byte of behaviour science",
-      "vo": "Follow Inquisitive Bytes for a daily byte of behaviour science.",
+      "text": "Follow *@inquisitive_bytes*\nto understand your brain better",
+      "vo": "Follow Inquisitive Bytes to understand your brain, one byte at a time.",
       "style": "cta"
     }
   ],
-  "caption": "Mondays, birthdays and 1st January feel like a clean slate. 🗓️ That's the fresh start effect. But you can create your own landmark anytime.\n\nComment 'DAY 1' if you're starting something today 👇",
+  "caption": "Mondays, birthdays and 1st January all feel like a clean page. 🗓️ That's the fresh start effect. But you can start your Day 1 anytime.\n\nComment 'DAY 1' if you're starting something today 👇",
   "hashtags": [
     "#freshstarteffect",
     "#habits",
     "#motivation",
-    "#katymilkman",
-    "#behavioralscience",
     "#psychology",
     "#psychologyfacts",
-    "#behaviouraleconomics",
-    "#cognitivebias",
+    "#behavioralscience",
+    "#brainfacts",
+    "#didyouknow",
     "#learnoninstagram",
     "#inquisitivebytes"
   ],
-  "source": "Dai, H., Milkman, K. L. & Riis, J. (2014). The Fresh Start Effect: Temporal Landmarks Motivate Aspirational Behavior. Management Science, 60(10)."
+  "source": "Dai, H., Milkman, K. L. & Riis, J. (2014). The Fresh Start Effect. Management Science, 60(10)."
 }

@@ -1,64 +1,58 @@
 {
   "id": "07-default-effect",
+  "number": 7,
   "title": "The Default Effect",
-  "series": "BRAIN GLITCH #07",
-  "palette": {
-    "bg1": "#022c22",
-    "bg2": "#065f46",
-    "accent": "#fde047"
-  },
   "scenes": [
     {
-      "text": "Austria: *99%* organ donors.\nGermany: *12%*. Why?",
-      "vo": "In Austria, almost everyone is a registered organ donor. In neighbouring Germany, only about 12 percent. Why?",
+      "text": "One *checkbox* changed millions of decisions",
+      "vo": "One tiny checkbox changed the decisions of millions of people.",
       "style": "hook"
     },
     {
-      "text": "Similar culture.\nSimilar values.",
-      "vo": "These are similar countries, with similar cultures and similar values."
+      "text": "Austria and Germany: next door, very *similar*",
+      "vo": "Austria and Germany are neighbours. Similar people, similar way of life."
     },
     {
-      "text": "Germany: tick a box to *opt in*",
-      "vo": "The difference is a single checkbox. In Germany, you tick a box to opt in."
+      "text": "Organ donors:\nGermany *12%*\nAustria *99%*",
+      "vo": "But in Germany, only about 12 percent of people signed up to donate organs. In Austria, almost everyone."
     },
     {
-      "text": "Austria: tick a box to *opt out*",
-      "vo": "In Austria, you're a donor by default. You tick a box to opt out."
+      "text": "Germany: tick the box to say *yes*\nAustria: tick the box to say *no*",
+      "vo": "The difference? In Germany, you had to tick a box to say yes. In Austria, you were a yes already, and had to tick a box to say no."
     },
     {
-      "text": "Most people just…\n*don't tick the box*",
-      "vo": "And most people simply never tick the box. Whatever the default is, wins."
+      "text": "Most people *never* tick the box",
+      "vo": "And most people never tick the box. So whatever was already chosen for them, won."
     },
     {
-      "text": "The *default effect*",
-      "vo": "This is the default effect. Defaults feel like a recommendation, and changing them takes effort."
+      "text": "This is the *default effect*",
+      "vo": "This is called the default effect. A default is what's already chosen for you, if you do nothing."
     },
     {
-      "text": "Auto-renew. Pre-ticked add-ons.\nNotifications: ON.",
-      "vo": "Apps know this well. Auto-renew, pre-ticked add-ons, notifications switched on."
+      "text": "Notifications: ON\nAutoplay: ON\nAuto-renew: ON",
+      "vo": "Apps know this. That's why notifications, autoplay and auto-renew are switched on from the start."
     },
     {
-      "text": "Audit your defaults. Make good habits the *default*.",
-      "vo": "So audit your defaults. Set up the auto-save, turn off the auto-renew, and make good habits the default.",
+      "text": "Check your settings. Make the *good choice* the default.",
+      "vo": "So check your settings, and make the good choice the default. Like turning autoplay off.",
       "style": "tip"
     },
     {
-      "text": "Follow *@inquisitive_bytes*\nfor a daily byte of behaviour science",
-      "vo": "Follow Inquisitive Bytes for a daily byte of behaviour science.",
+      "text": "Follow *@inquisitive_bytes*\nto understand your brain better",
+      "vo": "Follow Inquisitive Bytes to understand your brain, one byte at a time.",
       "style": "cta"
     }
   ],
-  "caption": "One checkbox, and the donor rate goes from 12% to 99%. ☑️ Defaults are among the most powerful forces in behaviour science.\n\nWhich default are you changing today? 👇",
+  "caption": "Most of us never change what's already chosen for us. ☑️ It's called the default effect, and apps use it every day.\n\nGo check your autoplay setting right now 👀👇",
   "hashtags": [
     "#defaulteffect",
     "#nudge",
-    "#nudgetheory",
-    "#choicearchitecture",
-    "#behavioralscience",
+    "#screentime",
     "#psychology",
     "#psychologyfacts",
-    "#behaviouraleconomics",
-    "#cognitivebias",
+    "#behavioralscience",
+    "#brainfacts",
+    "#didyouknow",
     "#learnoninstagram",
     "#inquisitivebytes"
   ],

@@ -1,60 +1,54 @@
 {
   "id": "05-spotlight-effect",
+  "number": 5,
   "title": "The Spotlight Effect",
-  "series": "BRAIN GLITCH #05",
-  "palette": {
-    "bg1": "#111827",
-    "bg2": "#4c1d95",
-    "accent": "#f9a8d4"
-  },
   "scenes": [
     {
-      "text": "Nobody noticed.\n*Seriously.*",
-      "vo": "That embarrassing thing you did yesterday? Almost nobody noticed.",
+      "text": "That embarrassing moment?\nNobody *noticed*.",
+      "vo": "That embarrassing thing you did? Almost nobody noticed. Science says so.",
       "style": "hook"
     },
     {
-      "text": "Students wore a cringey\nBarry Manilow T-shirt",
-      "vo": "In a Cornell study, students had to walk into a room full of peers wearing an embarrassing Barry Manilow T-shirt."
+      "text": "Students wore a super *cringey* T-shirt into class",
+      "vo": "Scientists asked students to walk into a room wearing a really cringey T-shirt."
     },
     {
-      "text": "They guessed *half* the room would notice",
-      "vo": "They guessed about half the room would notice the shirt."
+      "text": "They guessed: *half* the room would notice",
+      "vo": "The students guessed that about half the room would notice the shirt."
     },
     {
-      "text": "Real number:\nabout *1 in 4*",
-      "vo": "In reality, only about one in four people did."
+      "text": "Real answer: about *1 in 4*",
+      "vo": "The real answer? Only about one in four people did."
     },
     {
-      "text": "The *spotlight effect*",
-      "vo": "This is the spotlight effect. We're the centre of our own world, so we assume we're the centre of everyone else's too."
+      "text": "This is the *spotlight effect*",
+      "vo": "This is called the spotlight effect. You feel like there's a spotlight on you all the time. But there isn't."
     },
     {
-      "text": "Everyone's too busy with\n*their own* spotlight",
-      "vo": "But everyone else is busy worrying about their own spotlight."
+      "text": "Everyone's busy worrying about *themselves*",
+      "vo": "Everyone else is too busy worrying about their own hair, their own outfit and their own mistakes."
     },
     {
-      "text": "Next time you cringe: *halve it*. That's closer to reality.",
-      "vo": "So next time you cringe about something, halve it. That's much closer to reality.",
+      "text": "Next time you cringe, cut it in *half*. That's closer to the truth.",
+      "vo": "So next time you feel embarrassed, cut it in half. That's much closer to the truth.",
       "style": "tip"
     },
     {
-      "text": "Follow *@inquisitive_bytes*\nfor a daily byte of behaviour science",
-      "vo": "Follow Inquisitive Bytes for a daily byte of behaviour science.",
+      "text": "Follow *@inquisitive_bytes*\nto understand your brain better",
+      "vo": "Follow Inquisitive Bytes to understand your brain, one byte at a time.",
       "style": "cta"
     }
   ],
-  "caption": "You're not being watched nearly as closely as you think. 🔦 Share this with the friend who's still replaying something from 2019.",
+  "caption": "You're not being watched nearly as much as you think. 🔦 It's called the spotlight effect.\n\nSend this to the friend who still overthinks something from last year 😅",
   "hashtags": [
     "#spotlighteffect",
-    "#socialanxiety",
     "#overthinking",
-    "#selfgrowth",
-    "#behavioralscience",
+    "#confidence",
     "#psychology",
     "#psychologyfacts",
-    "#behaviouraleconomics",
-    "#cognitivebias",
+    "#behavioralscience",
+    "#brainfacts",
+    "#didyouknow",
     "#learnoninstagram",
     "#inquisitivebytes"
   ],
